@@ -1,24 +1,20 @@
-# README
+## Gaia's Sandbox
+An app where you can control the weather for regions across the US. Using various parameters, a conditional image will be rendered atop each region.
+Weather data is persistent for each individual user.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Technologies
+Project is created with:
+* Leaflet: 1.7.1
+* React: 17.0.1
+	
+## Setup
+To run this project, after following the steps below go to the [frontend setup](https://github.com/bstizzle/gaias-sandbox-frontend)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ cd ../gaias-sandbox-backend
+$ bundle install
+$ rails db:create
+$ rails db:migrate
+$ rails db:seed
+$ rails s
+```
