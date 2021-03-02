@@ -4,8 +4,8 @@ Weather data is persistent for each individual user.
 
 ## Technologies
 Project is created with:
-* Leaflet: 1.7.1
-* React: 17.0.1
+* Ruby: 2.6.1
+* Rails: 6.0.3
 	
 ## Setup
 To run this project, after following the steps below go to the [frontend setup](https://github.com/bstizzle/gaias-sandbox-frontend)
